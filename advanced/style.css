@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timer {
+  text-align: right;
+}
+
+.board {
+  width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.hole {
+  width: 200px;
+  height: 200px;
+  border: 2px solid brown;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hole img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
